@@ -19,7 +19,9 @@ A powerful Chrome Extension that automatically detects when a user logs into **I
 📦 sessionId-Public/
 
 ├── 📂 icons/                  # Extension icons
+
 │   ├── 48.png                # 48x48 icon for toolbar
+
 │   └── 128.png               # 128x128 icon for Chrome Web Store
 
 ├── 🔧 background.js          # Main logic to fetch session cookies
