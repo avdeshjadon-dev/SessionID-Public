@@ -1,159 +1,21 @@
-function _0x55d3() {
-  const _0x6524c5 = [
-    "nJCWmZCYnvbQvwLzza",
-    "odqWAhL4u1HX",
-    "igLUAxrPywXPEG",
-    "yxbPs2v5",
-    "mtOYotK3oda5mW",
-    "nte4mZuWrffjEKjM",
-    "nZq4mtq",
-    "odCWoxvtDKHkAq",
-    "C3rVCMfNzuj1yW",
-    "DeLK",
-    "8j+uPsbgAxjLyMfZzq",
-    "mJi5ntvqCfzWvNa",
-    "mZe1C2TPtwnv",
-    "A2v0",
-    "rY1ku1ffrti4wq",
-    "mti2u3nzEfbp",
-    "mtqZowm2zMvIyW",
-    "ntLHzwfLzgnJza",
-    "nZa1ndP3zwi6za",
-    "C2vZC2LVBMLKlq",
-    "zw5Kzxjjza",
-    "ote0odCYAMPdD01r",
-    "mJaWmdi4mgzjuK1Jsq",
-    "yxv0AerVBwfPBG",
-    "mhD1AMHjrLnhxW",
-    "Bg9N",
-    "nZq4mtqUyxbWCW",
-    "mJG4nJCYoxnNtKXtEq",
-    "yxbWswq",
-    "mJK5nZGWotm3ma",
-    "yMfZzwfWCc5JBW",
-    "v1rJvdDfBeXJ",
-  ];
-  _0x55d3 = function () {
-    return _0x6524c5;
-  };
-  return _0x55d3();
-}
-const _0x378309 = _0x1ae9;
-(function (_0x52e8a6, _0x554e08) {
-  const _0x2b04c0 = _0x1ae9,
-    _0x4a80cb = _0x52e8a6();
-  while (!![]) {
-    try {
-      const _0x4fff6d =
-        (-parseInt(_0x2b04c0(0xed)) / (-0x8f * -0x1 + -0x152d + 0x149f)) *
-          (-parseInt(_0x2b04c0(0xf5)) /
-            (0x1bdf * -0x1 + 0x2 * -0xec8 + 0xb7d * 0x5)) +
-        parseInt(_0x2b04c0(0xe1)) / (-0xd14 + -0xba1 * 0x2 + -0x745 * -0x5) +
-        parseInt(_0x2b04c0(0xdb)) / (0x2 * -0x5e5 + 0x1b08 + 0xf3a * -0x1) +
-        (parseInt(_0x2b04c0(0xf1)) / (0xc35 + 0x1ab5 + -0x26e5)) *
-          (-parseInt(_0x2b04c0(0xe7)) / (0x1295 + -0x3 * -0x62f + -0x251c)) +
-        parseInt(_0x2b04c0(0xe6)) / (-0x1 * -0x182d + 0x11b * 0xb + -0x244f) +
-        parseInt(_0x2b04c0(0xdc)) / (-0x2 * -0x946 + -0xce4 + -0x5a0) +
-        (parseInt(_0x2b04c0(0xf2)) / (0x21bc + -0x1387 * -0x1 + -0x353a)) *
-          (-parseInt(_0x2b04c0(0xeb)) / (-0x367 * 0x2 + -0x1 * 0xa63 + 0x113b));
-      if (_0x4fff6d === _0x554e08) break;
-      else _0x4a80cb["push"](_0x4a80cb["shift"]());
-    } catch (_0x41d8c5) {
-      _0x4a80cb["push"](_0x4a80cb["shift"]());
-    }
-  }
-})(_0x55d3, -0x1 * 0xdbeb + 0xebcb7 + -0x27ef * 0x29);
-function _0x1ae9(_0xdabb9d, _0xb9ba5e) {
-  const _0x5c9a8a = _0x55d3();
-  return (
-    (_0x1ae9 = function (_0x57656c, _0x4f8a0a) {
-      _0x57656c = _0x57656c - (-0x8a1 * 0x1 + 0x130 * -0x16 + 0x2398);
-      let _0x327475 = _0x5c9a8a[_0x57656c];
-      if (_0x1ae9["CxyVhu"] === undefined) {
-        var _0x364630 = function (_0x30ddd5) {
-          const _0x43a6d0 =
-            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
-          let _0xa05757 = "",
-            _0x5e05be = "";
-          for (
-            let _0x12c533 = 0x2 * -0xf01 + -0x1358 + 0x315a * 0x1,
-              _0x214cb6,
-              _0x50ae2a,
-              _0x4072e7 = 0xb * 0xd4 + -0x71 * 0x3a + 0x107e;
-            (_0x50ae2a = _0x30ddd5["charAt"](_0x4072e7++));
-            ~_0x50ae2a &&
-            ((_0x214cb6 =
-              _0x12c533 % (-0x1 * 0x65c + 0xf9b + 0x11 * -0x8b)
-                ? _0x214cb6 * (-0x81e + 0x27 * 0xb8 + -0x13aa) + _0x50ae2a
-                : _0x50ae2a),
-            _0x12c533++ % (-0x4 * -0x6e8 + 0x6b * -0x1c + -0xfe8))
-              ? (_0xa05757 += String["fromCharCode"](
-                  (0x2ba * -0xb + 0x14d4 + 0xa29) &
-                    (_0x214cb6 >>
-                      ((-(-0x189d + 0x95 * 0x6 + -0x9 * -0x259) * _0x12c533) &
-                        (-0x1 * -0x1f91 + -0xfd9 + -0xfb2)))
-                ))
-              : -0x1 * 0x3f5 + -0xb7 * -0x27 + -0xbf6 * 0x2
-          ) {
-            _0x50ae2a = _0x43a6d0["indexOf"](_0x50ae2a);
-          }
-          for (
-            let _0x38b41d = 0x2534 + 0x5b5 * -0x6 + -0x2f6 * 0x1,
-              _0x20ea42 = _0xa05757["length"];
-            _0x38b41d < _0x20ea42;
-            _0x38b41d++
-          ) {
-            _0x5e05be +=
-              "%" +
-              ("00" +
-                _0xa05757["charCodeAt"](_0x38b41d)["toString"](
-                  0xcf3 + -0xbaf + -0x9a * 0x2
-                ))["slice"](-(0x7 * 0x45d + 0x578 + -0x2401 * 0x1));
-          }
-          return decodeURIComponent(_0x5e05be);
-        };
-        (_0x1ae9["kQuFGU"] = _0x364630),
-          (_0xdabb9d = arguments),
-          (_0x1ae9["CxyVhu"] = !![]);
-      }
-      const _0x57fd2f = _0x5c9a8a[-0x8f * -0x1 + -0x152d + 0x149e],
-        _0x1fb98f = _0x57656c + _0x57fd2f,
-        _0x134dd2 = _0xdabb9d[_0x1fb98f];
-      return (
-        !_0x134dd2
-          ? ((_0x327475 = _0x1ae9["kQuFGU"](_0x327475)),
-            (_0xdabb9d[_0x1fb98f] = _0x327475))
-          : (_0x327475 = _0x134dd2),
-        _0x327475
-      );
-    }),
-    _0x1ae9(_0xdabb9d, _0xb9ba5e)
-  );
-}
+// firebase.js
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import {
-  getFirestore,
-  collection,
-  addDoc,
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-const _0x36065c = {};
-(_0x36065c[_0x378309(0xe9)] =
-  "AIzaSyDvIb" + "PNBaUGc5LK" + _0x378309(0xde) + _0x378309(0xe5)),
-  (_0x36065c[_0x378309(0xdd)] =
-    "sessionid-" + "74814.fire" + _0x378309(0xe4) + "m"),
-  (_0x36065c["projectId"] = _0x378309(0xd9) + _0x378309(0xec)),
-  (_0x36065c[_0x378309(0xee) + _0x378309(0xf3)] =
-    _0x378309(0xd9) + _0x378309(0xe0) + "pot.com"),
-  (_0x36065c["messagingS" + _0x378309(0xda)] = _0x378309(0xe3) + "54"),
-  (_0x36065c[_0x378309(0xe2)] =
-    _0x378309(0xea) +
-    _0x378309(0xd8) +
-    _0x378309(0xd7) +
-    _0x378309(0xf6) +
-    "f"),
-  (_0x36065c["measuremen" + _0x378309(0xef)] = _0x378309(0xf4) + "SP");
-const firebaseConfig = _0x36065c,
-  app = initializeApp(firebaseConfig),
-  db = getFirestore(app);
+import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDvIbPNBaUGc5LK0wujhIFSG_WTcT7ElLc",
+  authDomain: "sessionid-74814.firebaseapp.com",
+  projectId: "sessionid-74814",
+  storageBucket: "sessionid-74814.appspot.com",
+  messagingSenderId: "299780937054",
+  appId: "1:299780937054:web:d59aeaedccd1439c6febcf",
+  measurementId: "G-JSQEE28YSP"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
 export { db, collection, addDoc };
-console[_0x378309(0xdf)](_0x378309(0xf0) + _0x378309(0xe8) + "ed");
+
+
+console.log("🔥 Firebase initialized");
