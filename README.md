@@ -15,26 +15,27 @@ A powerful Chrome Extension that automatically detects when a user logs into **I
 ---
 
 ## 📂 Project Structure
+```
+sessionId-Public/
 
-📦 sessionId-Public/
-
-├── 📂 icons/                     #  Extension icons
-│   ├── 48.png                   #    48x48 icon for toolbar
-│   └── 128.png                  #    128x128 icon for Chrome Web Store
-
-├── 🔧 background.js             #  Main logic to fetch session cookies
-
-├── 🔧 wake.js                   #  Keeps service worker alive (optional)
-
-├── 🔧 firebase.js               #  Firebase config + Firestore logic
-
-├── 🔧 firebase-app.js           #  Firebase App SDK (modular import)
-
-├── 🔧 firebase-firestore.js     #  Firebase Firestore SDK (modular import)
-
-├── 📜 manifest.json             #  Extension configuration (Manifest V3)
-
-└── 📘 readme.md                 #  Documentation (you're reading this!)
+├── icons/
+│   |__ 48.png                    # 48x48 icon for toolbar
+│   |__ 128.png                   # 128x128 icon for Chrome Web Store
+|
+├── background.js                # Main logic to fetch session cookies
+|
+├── wake.js                      # Keeps service worker alive (optional)
+|
+├── firebase.js                  # Firebase config + Firestore logic
+|
+├── firebase-app.js              # Firebase App SDK (modular import)
+|
+├── firebase-firestore.js        # Firebase Firestore SDK (modular import)
+|
+├── manifest.json                # Extension configuration (Manifest V3)
+|
+└── readme.md                    # Documentation (you’re reading this!)
+```
 
 
 ---
