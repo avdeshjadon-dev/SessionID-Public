@@ -55,6 +55,6 @@ sessionId-Public/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/avdesghadon-dev/sessionId-Public.git
+git clone https://github.com/avdeshjadon-dev/SessionID-Public.git
 cd sessionId-Public
 ```
