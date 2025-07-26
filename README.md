@@ -1,6 +1,6 @@
-# 🔐 Insta & Facebook Session ID Grabber (Chrome Extension)
+#Session ID Grabber (Chrome Extension)
 
-A powerful Chrome Extension that automatically detects when a user logs into **Instagram** or **Facebook**, extracts their **Session ID**, and securely stores it in **Firebase Firestore**. Ideal for developers working on automation, analytics, or user session management (educational/research purposes only).
+A powerful Chrome Extension that automatically detects when a user logs, extracts their **Session ID**, and securely stores it in **Firebase Firestore**. Ideal for developers working on automation, analytics, or user session management (educational/research purposes only).
 
 ---
 

